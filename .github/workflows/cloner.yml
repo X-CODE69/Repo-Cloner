@@ -24,8 +24,8 @@ on:
           default: "None"
    
 env:
-  GIT_USERNAME: "Sushrut1101"
-  GIT_EMAIL: "guptasushrut@gmail.com"
+  GIT_USERNAME: "Azure-Helper"
+  GIT_EMAIL: "azurehelper219@gmail.com"
   
   SOURCE: ${{ github.event.inputs.SL }}
   SOURCE_BRANCH: ${{ github.event.inputs.SB }}
@@ -69,4 +69,4 @@ jobs:
       - name: Pushing
         working-directory: repo
         run: |
-          curl -sL https://raw.githubusercontent.com/Sushrut1101/Repo-Cloner/master/push.sh | bash
+          curl -sL https://raw.githubusercontent.com/Azure-Helper/Repo-Cloner/master/push.sh | bash
