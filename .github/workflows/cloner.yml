@@ -24,8 +24,8 @@ on:
           default: "None"
    
 env:
-  GIT_USERNAME: "Azure-Helper"
-  GIT_EMAIL: "azurehelper219@gmail.com"
+  GIT_USERNAME: "X-CODE69"
+  GIT_EMAIL: "azurehelper01+1@gmail.com"
   
   SOURCE: ${{ github.event.inputs.SL }}
   SOURCE_BRANCH: ${{ github.event.inputs.SB }}
